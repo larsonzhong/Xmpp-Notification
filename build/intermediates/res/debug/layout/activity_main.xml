@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/top_bar_bg"
+        android:textSize="28dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="@string/noName"/>
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_below="@id/title_name"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>
+<!-- From: file:/home/larson/larsoncode/StudioProject/fxhelper/src/main/res/layout/activity_main.xml -->
